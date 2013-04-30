@@ -7,16 +7,16 @@ package com.anirudh.practice;
  */
 public class Light {
 
-	private LIGHT_STATUS lightStatus;
+	private LightStatus status;
 	
 	public void on(){
-		lightStatus=LIGHT_STATUS.ON;
+		status=LightStatus.ON;
 		System.out.println("Light is turned on");
 	}
 	
 	public void off(){
-		if(lightStatus==LIGHT_STATUS.ON){
-			lightStatus=LIGHT_STATUS.OFF;
+		if(status==LightStatus.ON){
+			status=LightStatus.OFF;
 		}
 		System.out.println("Light is turned off");
 	}
