@@ -1,0 +1,20 @@
+Decorator pattern :
+
+1. Beverage is the base class
+2. It has few types, 
+	a.) Espresso
+	b.) HouseBlend
+	c.)	Decaf
+3. Any coffee can have multiple flavours.
+    a.)hazelnut
+    b.)mocha
+    c.)whip
+    d.)soy
+
+
+Make wrappers and pass instances of original object into it.
+
+Beverage beverage = new HouseBlend();
+beverage = new Soy(beverage);
+beverage = new Mocha(beverage);
+beverage = new Whip(beverage);
