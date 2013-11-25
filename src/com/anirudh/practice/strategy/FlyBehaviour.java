@@ -1,4 +1,4 @@
-package com.anirudh.practice.ch1;
+package com.anirudh.practice.strategy;
 
 public interface FlyBehaviour {
 	public void fly();

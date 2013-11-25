@@ -1,4 +1,4 @@
-package com.anirudh.practice.ch1;
+package com.anirudh.practice.strategy;
 
 public class ADuck extends Duck {
 	
